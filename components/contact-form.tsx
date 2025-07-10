@@ -143,7 +143,7 @@ export function ContactForm() {
                     <Phone className="w-5 h-5 text-orange-600" />
                     <div>
                       <p className="font-medium">Phone</p>
-                      <p className="text-gray-600">+91 98765 43210</p>
+                      <p className="text-gray-600">+91 1234567890</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">

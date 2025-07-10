@@ -8,9 +8,10 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-r from-orange-500 to-green-500 rounded-lg flex items-center justify-center">
+              {/* <div className="w-8 h-8 bg-gradient-to-r from-orange-500 to-green-500 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">S</span>
-              </div>
+              </div> */}
+              <img src="/logo2.png" alt="Sahayak Logo" className="w-18 h-10 rounded" />
               <span className="text-xl font-bold">Sahayak</span>
             </div>
             <p className="text-gray-400 mb-4">
@@ -103,7 +104,7 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Phone size={16} />
-                <span>+91 98765 43210</span>
+                <span>+91 1234567890</span>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin size={16} />
@@ -115,7 +116,7 @@ export function Footer() {
 
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm">© 2024 Sahayak. All rights reserved.</p>
+            <p className="text-gray-400 text-sm">© 2025 Sahayak. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
                 Privacy Policy
